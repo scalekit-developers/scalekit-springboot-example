@@ -1,0 +1,1 @@
+# scalekit-spring-boot-example
