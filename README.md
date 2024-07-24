@@ -8,7 +8,7 @@ To get a local copy up and running follow these simple steps.
 
 
  - Get you ```env_url```, ```client_id``` and ```client_secret``` from the Scalekit dashboard.
- - update the application.properties file with your credentials
+ - update the [application.properties](https://github.com/scalekit-inc/scalekit-spring-boot-example/blob/main/src/main/resources/application.properties) file with your credentials
 ```
 scalekit.client.id=client_id
 scalekit.client.secret=client_secret
