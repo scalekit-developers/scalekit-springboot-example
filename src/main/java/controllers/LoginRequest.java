@@ -1,6 +1,5 @@
 package controllers;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,7 +8,6 @@ import lombok.Setter;
 class LoginRequest {
 
     private String connectionId;
-
 
     private String organizationId;
 
