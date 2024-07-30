@@ -6,6 +6,11 @@ This is a simple Spring Boot application that demonstrates how to use Scalekit S
 
 To get a local copy up and running follow these simple steps.
 
+```
+# Add ReactJS submodule for frontend elements 
+git clone --recursive https://github.com/scalekit-inc/scalekit-spring-boot-example.git
+```
+
 
  - Get you ```env_url```, ```client_id``` and ```client_secret``` from the Scalekit dashboard.
  - update the [application.properties](https://github.com/scalekit-inc/scalekit-spring-boot-example/blob/main/src/main/resources/application.properties) file with your credentials

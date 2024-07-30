@@ -33,11 +33,7 @@ public class AuthController {
     @Value("${auth.ui.url}")
     private String uiUrl;
 
-
     private final  UserStore userStore = new UserStore();
-
-
-
 
 
     @PostMapping( path = "/login")
