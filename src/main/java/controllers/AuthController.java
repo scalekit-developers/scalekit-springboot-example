@@ -57,12 +57,12 @@ public class AuthController {
 
     @GetMapping("/callback")
     public RedirectView callbackHandler(@RequestParam(required = false) String code,
-                                        @RequestParam(required = false, name = "error_description") String errorDescription,
+                                        @RequestParam(required = false, name = "error") String error,
                                         @RequestParam(required = false, name = "idp_initiated_login") String idpInitiatedLoginToken,
 
                                         HttpServletResponse response) throws IOException {
-        if (errorDescription != null) {
-            response.sendError(HttpStatus.BAD_REQUEST.value(), errorDescription);
+        if (error != null) {
+            response.sendError(HttpStatus.BAD_REQUEST.value(), error);
             return null;
         }
         if (idpInitiatedLoginToken != null) {
