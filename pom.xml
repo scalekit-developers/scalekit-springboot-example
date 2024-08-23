@@ -47,7 +47,11 @@
         <dependency>
             <groupId>com.scalekit</groupId>
             <artifactId>scalekit-sdk-java</artifactId>
-            <version>1.0.1</version>
+            <version>RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
     </dependencies>
 
