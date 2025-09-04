@@ -8,7 +8,7 @@ To get a local copy up and running follow these simple steps.
 
 ```
 # Add ReactJS submodule for frontend elements 
-git clone --recursive git@github.com:scalekit-developers/shared-ui-for-examples.git
+git clone --recursive https://github.com/scalekit-developers/shared-ui-for-examples.git
 ```
 
 
