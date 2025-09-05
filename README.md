@@ -13,16 +13,16 @@
 [![Java](https://img.shields.io/badge/Java-11+-orange?style=flat-square&logo=java)](https://www.oracle.com/java/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A comprehensive Spring Boot application demonstrating <a href="https://scalekit.com" target="_blank" rel="noopener noreferrer">Scalekit</a>'s **auth stack for AI apps**. This example shows how to implement both human authentication (Enterprise SSO, passwordless) and agent authorization (MCP, token vaults) in a Java/Spring Boot application.
+A comprehensive Spring Boot application demonstrating <a href="https://scalekit.com" target="_blank" rel="noopener noreferrer">Scalekit</a>'s enterprise authentication integration. This example shows how to implement SSO authentication flows in a Java/Spring Boot application.
 
-## 🤖 What This Demo Shows
+## 🚀 What This Demo Shows
 
-- **Agent-First Authentication**: MCP integration with delegated consent
-- **Enterprise SSO**: SAML and OIDC authentication flows
-- **Token Management**: Secure token storage and rotation
-- **Spring Security**: Integration with Spring's security framework
-- **Session Handling**: Robust user session management
-- **RESTful APIs**: Modern API design patterns
+- **Enterprise SSO**: SAML and OIDC authentication flows using Scalekit
+- **Spring Boot Integration**: Modern Java web application patterns
+- **Maven Build System**: Standard Java dependency management
+- **Session Handling**: Secure user session management
+- **RESTful APIs**: Clean API endpoints for authentication
+- **Frontend Integration**: React UI components for user interface
 
 ## Running The App
 
