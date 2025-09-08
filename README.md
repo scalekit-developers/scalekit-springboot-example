@@ -1,6 +1,28 @@
-# Spring Boot example app
+<p align="left">
+  <a href="https://scalekit.com" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <img src="https://cdn.scalekit.cloud/v1/scalekit-logo-dark.svg" height="64">
+    </picture>
+  </a>
+  <br/>
+</p>
 
-This is a simple Spring Boot application that demonstrates how to use Scalekit SDK to implement Single Sign-on.
+# Scalekit Spring Boot Example
+
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5+-green?style=flat-square&logo=spring)](https://spring.io/projects/spring-boot)
+[![Java](https://img.shields.io/badge/Java-11+-orange?style=flat-square&logo=java)](https://www.oracle.com/java/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A comprehensive Spring Boot application demonstrating <a href="https://scalekit.com" target="_blank" rel="noopener noreferrer">Scalekit</a>'s enterprise authentication integration. This example shows how to implement SSO authentication flows in a Java/Spring Boot application.
+
+## 🚀 What This Demo Shows
+
+- **Enterprise SSO**: SAML and OIDC authentication flows using Scalekit
+- **Spring Boot Integration**: Modern Java web application patterns
+- **Maven Build System**: Standard Java dependency management
+- **Session Handling**: Secure user session management
+- **RESTful APIs**: Clean API endpoints for authentication
+- **Frontend Integration**: React UI components for user interface
 
 ## Running The App
 
