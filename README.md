@@ -15,6 +15,8 @@
 
 A comprehensive Spring Boot application demonstrating <a href="https://scalekit.com" target="_blank" rel="noopener noreferrer">Scalekit</a>'s enterprise authentication integration. This example shows how to implement SSO authentication flows in a Java/Spring Boot application.
 
+Scalekit provides auth and actions on behalf of users, with 500+ connectors and 20,000+ tools.
+
 ## 🚀 What This Demo Shows
 
 - **Enterprise SSO**: SAML and OIDC authentication flows using Scalekit
